@@ -1,0 +1,36 @@
+{
+  "name": "filmes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "string",
+      "required": true
+    },
+    "like": {
+      "type": "boolean"
+    },
+    "dislike": {
+      "type": "boolean"
+    },
+    "dtfilme": {
+      "type": "date",
+      "required": true
+    },
+    "genero": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
